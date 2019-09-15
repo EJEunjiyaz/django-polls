@@ -11,12 +11,10 @@ These polls contain two questions
 
     The answer can be one of these including Fancy, Yes or Yes, Dance the night Away, What Is Love?, Heart Shaker, Likey, Signal, Knock Knock, TT, Cheer Up, or Like Ooh-Ahh.
     
-Finally Let's be ONCE together!
-
-
-
 Created by Vichyawat Nakarugsa
 
 Department of Computer Engineering
 
 Kasetsart University
+
+Finally Let's be ONCE together!
