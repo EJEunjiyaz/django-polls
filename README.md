@@ -1,4 +1,4 @@
-# django-polls
+# TWICE POLLS
 
 THE POLLS OF TWICE
 
