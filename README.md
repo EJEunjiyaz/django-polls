@@ -1,9 +1,9 @@
 # Django Polls
-Created by Vichyawat Nakarugsa
+*Created by Vichyawat Nakarugsa*
 
-Department of Computer Engineering
+*Department of Computer Engineering*
 
-Kasetsart University
+*Kasetsart University*
 
 ## Django Polls Application
 
@@ -19,8 +19,8 @@ This project requires:
 
 ## How to Run
 
-1. Run server at \django-polls\mysite\ using command python manage.py runserver
-2. Normally 
+1. Run server at \django-polls\mysite\ using command "python manage.py runserver"
+2. Normally the server start at http://127.0.0.1:8000/, you can access http://127.0.0.1:8000/polls and http://127.0.0.1:8000/admin from these url.
 
 ## Developing Tools
 
