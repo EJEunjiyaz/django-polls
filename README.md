@@ -19,8 +19,8 @@ This project requires:
 
 ## How to Run
 
-1.
-2.
+1. Run server at \django-polls\mysite\ using command python manage.py runserver
+2. Normally 
 
 ## Developing Tools
 
