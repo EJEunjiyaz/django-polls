@@ -5,6 +5,23 @@ Department of Computer Engineering
 
 Kasetsart University
 
+## Django Polls Application
+
+Web application from the Django Tutorial project where users can vote on polls.
+
+## Requirements
+
+This project requires:
+
+* Python 3.6 or newer
+* Django 2.1.2 or newer
+* other Python modules as in [requirements.txt](requirements.txt)
+
+## How to Run
+
+1.
+2.
+
 ## Developing Tools
 
 This project use Django Web Framework. Some language you might need to know are Python, HTML, and CSS.
