@@ -20,7 +20,6 @@ This project requires:
     ```python
     python manage.py migrate
     ```
-4. Run "python manage.py runserver". Normally the server start at http://127.0.0.1:8000/, you can access http://127.0.0.1:8000/polls and http://127.0.0.1:8000/admin from these url.
 
 ## Setup Administrator
 
