@@ -1,10 +1,13 @@
 <html>
-<body>
-    {% load static %}
-</body>
-<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
 
-<h2>Hot Topics</h2>
+{% load static %}
+
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+</head>
+
+<body>
+<h2 class='topic'>ONCE Topics</h2>
 
 {% if user.is_authenticated %}
 Welcome back,
@@ -14,7 +17,7 @@ Welcome back,
         {{ user.username.title }}
     {% endif %}
 {% else %}
-    Please <a href='/accounts/login/'>login</a> to vote for a topic.
+    Please <a href="{% url 'login' %}?next={{request.path}}">login</a> to vote for a topic.
 {% endif %}
 
 {% if latest_question_list %}
@@ -26,3 +29,5 @@ Welcome back,
 {% else %}
     <p>No polls are available.</p>
 {% endif %}
+</body>
+</html>
