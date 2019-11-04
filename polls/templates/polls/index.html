@@ -1,6 +1,21 @@
-{% load static %}
-
+<html>
+<body>
+    {% load static %}
+</body>
 <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+
+<h2>Hot Topics</h2>
+
+{% if user.is_authenticated %}
+Welcome back,
+    {% if user.first_name != '' %}
+        {{ user.first_name }}
+    {% else %}
+        {{ user.username.title }}
+    {% endif %}
+{% else %}
+    Please <a href='/accounts/login/'>login</a> to vote for a topic.
+{% endif %}
 
 {% if latest_question_list %}
     <ul>
