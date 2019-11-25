@@ -5,6 +5,7 @@ def get_links(url):
     """Find all links on page at the given url.
        Return a list of all link addresses, as strings.
     """
+    browser = webdriver.Chrome(executable_path=r'C:/chromedriver/chromedriver.exe')
     browser.get(url)
     elements = browser.find_elements_by_tag_name('a')
     links = [element.get_attribute('href') for element in elements]
@@ -41,3 +42,5 @@ def main():
         print("Bad URLs Here")
         print(*invalid_url_list, sep = "\n")
     browser.close()
+
+main()
